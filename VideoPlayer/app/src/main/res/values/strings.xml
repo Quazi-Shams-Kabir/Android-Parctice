@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="Comment">Comment</string>
+    <string name="number">123</string>
+</resources>
