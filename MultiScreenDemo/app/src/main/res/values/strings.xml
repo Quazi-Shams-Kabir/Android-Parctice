@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multi Screen Demo</string>
+    <string name="heading">Welcome To First Page</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="log_in">Log in</string>
+    <string name="textBox">Please Enter Your name in log in screen</string>
+</resources>
