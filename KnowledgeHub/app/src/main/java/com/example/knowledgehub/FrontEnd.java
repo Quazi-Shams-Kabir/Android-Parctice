@@ -1,0 +1,26 @@
+package com.example.knowledgehub;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+public class FrontEnd extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_front_end);
+        TextView forMore = findViewById(R.id.forMore);
+        forMore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent roadmapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://roadmap.sh/frontend"));
+                startActivity(roadmapIntent);
+            }
+        });
+    }
+}
