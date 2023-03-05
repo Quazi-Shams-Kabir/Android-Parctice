@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="welcome_user">WELCOME USER!!!</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="music_image">music image</string>
+    <string name="adjust_volume">Adjust Volume</string>
+</resources>
