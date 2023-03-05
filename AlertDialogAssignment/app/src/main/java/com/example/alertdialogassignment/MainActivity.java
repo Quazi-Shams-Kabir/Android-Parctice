@@ -169,6 +169,29 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        binding.button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder5 = new AlertDialog.Builder(MainActivity.this);
+                builder5.setTitle("Are you sure?")
+                        .setMessage("Do you want exit?")
+                        .setIcon(R.drawable.baseline_exit_to_app_24)
+                        .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                finish();
+                            }
+                        })
+                        .setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                //nothing
+                            }
+                        })
+                        .show();
+            }
+        });
     }
 }
 

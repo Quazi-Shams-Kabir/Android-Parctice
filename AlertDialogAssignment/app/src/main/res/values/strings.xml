@@ -6,4 +6,5 @@
     <string name="_3_which_ides_are_you_familiar_with">3. Which IDEs are you familiar with?</string>
     <string name="_4_do_you_like_open_source">4. Do you like Open Source?</string>
     <string name="submit">Submit</string>
+    <string name="exit">Exit</string>
 </resources>
